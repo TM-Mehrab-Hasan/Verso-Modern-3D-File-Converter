@@ -57,7 +57,7 @@ function App() {
                 </motion.div>
 
                 <h1 className="text-6xl md:text-7xl font-bold gradient-text mb-2">
-                  File Converter
+                  Verso
                 </h1>
 
                 <motion.p
