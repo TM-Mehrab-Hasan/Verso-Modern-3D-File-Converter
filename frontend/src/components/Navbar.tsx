@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { Sparkles } from 'lucide-react'
 import { CONVERSIONS, CATEGORY_COLOR } from '../constants'
 
 interface NavbarProps {

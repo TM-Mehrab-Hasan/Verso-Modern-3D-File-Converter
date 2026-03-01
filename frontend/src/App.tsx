@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import FileConverter from './components/FileConverter.tsx'
 import Background3D from './components/Background3D.tsx'
 import Navbar from './components/Navbar.tsx'
-import { Sparkles } from 'lucide-react'
 
 function App() {
   const [showConverter, setShowConverter] = useState(false)
