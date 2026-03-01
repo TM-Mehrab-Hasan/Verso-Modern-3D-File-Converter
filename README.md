@@ -1,4 +1,4 @@
-# File Converter
+# Verso
 
 A modern, fast, and beautiful file converter with a 3D animated interface and smooth UI/UX. Convert between multiple file formats completely locally.
 

@@ -24,7 +24,7 @@ export default function Navbar({ selectedConversion, onSelectConversion, onLogoC
             <Sparkles className="w-5 h-5 text-purple-400" />
           </motion.div>
           <span className="font-bold text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 hidden sm:block">
-            File Converter
+            Verso
           </span>
         </button>
 
