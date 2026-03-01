@@ -49,11 +49,11 @@ function App() {
                 className="text-center space-y-4 mb-8"
               >
                 <motion.div
-                  animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
-                  transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-                  className="inline-block mb-2"
+                  animate={{ scale: [1, 1.05, 1], rotate: [0, 2, -2, 0] }}
+                  transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+                  className="inline-block mb-4"
                 >
-                  <Sparkles className="w-16 h-16 text-purple-400" />
+                  <img src="/logo.png" alt="Verso Logo" className="w-24 h-24 md:w-32 md:h-32 rounded-3xl shadow-2xl mx-auto" />
                 </motion.div>
 
                 <h1 className="text-6xl md:text-7xl font-bold gradient-text mb-2">

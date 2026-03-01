@@ -20,8 +20,8 @@ export default function Navbar({ selectedConversion, onSelectConversion, onLogoC
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-4 h-14">
         {/* Logo */}
         <button onClick={onLogoClick} className="flex items-center gap-2 flex-shrink-0 group">
-          <motion.div whileHover={{ rotate: 20, scale: 1.15 }} transition={{ type: 'spring', stiffness: 300 }}>
-            <Sparkles className="w-5 h-5 text-purple-400" />
+          <motion.div whileHover={{ rotate: 10, scale: 1.1 }} transition={{ type: 'spring', stiffness: 300 }}>
+            <img src="/logo.png" alt="Verso Logo" className="w-8 h-8 rounded-lg shadow-lg" />
           </motion.div>
           <span className="font-bold text-sm bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 hidden sm:block">
             Verso
